@@ -6,8 +6,8 @@
 
             <div class="flex flex-col flex-1 h-full">
 
-                <div v-if="options.widget_title" class="px-6 py-4 text-base text-80 font-bold">
-                    {{ options.widget_title }}
+                <div v-if="value.options" class="px-6 py-4 text-base text-80 font-bold">
+                    {{ value.options.widget_title }}
                 </div>
 
                 <component :is="component"
