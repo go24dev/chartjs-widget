@@ -1,0 +1,117 @@
+{
+    "_readme": [
+        "This file locks the dependencies of your project to a known state",
+        "Read more about it at https://getcomposer.org/doc/01-basic-usage.md#installing-dependencies",
+        "This file is @generated automatically"
+    ],
+    "content-hash": "ce39ebd71d52ec8335019202086e55cc",
+    "packages": [
+        {
+            "name": "ozdemirburak/iris",
+            "version": "2.2.0",
+            "source": {
+                "type": "git",
+                "url": "https://github.com/ozdemirburak/iris.git",
+                "reference": "517b880c93d0aa1ef8f415c182b9f330928475c6"
+            },
+            "dist": {
+                "type": "zip",
+                "url": "https://api.github.com/repos/ozdemirburak/iris/zipball/517b880c93d0aa1ef8f415c182b9f330928475c6",
+                "reference": "517b880c93d0aa1ef8f415c182b9f330928475c6",
+                "shasum": ""
+            },
+            "require": {
+                "php": "~7.2"
+            },
+            "require-dev": {
+                "phpunit/phpunit": "~7.0|~8.0",
+                "squizlabs/php_codesniffer": "~3.5"
+            },
+            "type": "library",
+            "autoload": {
+                "psr-4": {
+                    "OzdemirBurak\\Iris\\": "src"
+                }
+            },
+            "notification-url": "https://packagist.org/downloads/",
+            "license": [
+                "MIT"
+            ],
+            "authors": [
+                {
+                    "name": "Burak Özdemir",
+                    "homepage": "https://ozdemirburak.com"
+                }
+            ],
+            "description": "PHP library for color manipulation and conversion.",
+            "homepage": "https://github.com/ozdemirburak/iris",
+            "keywords": [
+                "color",
+                "conversion",
+                "hex",
+                "hsl",
+                "hsla",
+                "hsv",
+                "manipulation",
+                "rgb",
+                "rgba",
+                "transformation"
+            ],
+            "time": "2020-10-11T12:39:26+00:00"
+        },
+        {
+            "name": "timothyasp/nova-color-field",
+            "version": "1.0.3",
+            "source": {
+                "type": "git",
+                "url": "https://github.com/timothyasp/nova-color-field.git",
+                "reference": "e94011fb80fa1807e7a607deab1cdc9f8adb0ccb"
+            },
+            "dist": {
+                "type": "zip",
+                "url": "https://api.github.com/repos/timothyasp/nova-color-field/zipball/e94011fb80fa1807e7a607deab1cdc9f8adb0ccb",
+                "reference": "e94011fb80fa1807e7a607deab1cdc9f8adb0ccb",
+                "shasum": ""
+            },
+            "require": {
+                "php": ">=7.1.0"
+            },
+            "type": "library",
+            "extra": {
+                "laravel": {
+                    "providers": [
+                        "Timothyasp\\Color\\FieldServiceProvider"
+                    ]
+                }
+            },
+            "autoload": {
+                "psr-4": {
+                    "Timothyasp\\Color\\": "src/"
+                }
+            },
+            "notification-url": "https://packagist.org/downloads/",
+            "license": [
+                "MIT"
+            ],
+            "description": "A Laravel Nova Color Picker field.",
+            "keywords": [
+                "color picker",
+                "field",
+                "laravel",
+                "nova"
+            ],
+            "time": "2019-03-14T07:29:30+00:00"
+        }
+    ],
+    "packages-dev": [],
+    "aliases": [],
+    "minimum-stability": "dev",
+    "stability-flags": [],
+    "prefer-stable": true,
+    "prefer-lowest": false,
+    "platform": {
+        "php": ">=7.4"
+    },
+    "platform-dev": [],
+    "plugin-api-version": "1.1.0"
+}
